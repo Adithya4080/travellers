@@ -1,0 +1,87 @@
+.blue-div {
+  background-color: #3D4C7E;
+}
+
+.purple-div {
+  background-color: #7076B6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+}
+
+.display1 {
+  font-size: 80px;
+}
+
+.display2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+.p2 {
+  font-size: 16px;
+}
+
+.p3 {
+  font-size: 14px;
+}
+
+input::-moz-placeholder {
+  font-size: 18px;
+}
+
+input, input::placeholder {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .display1 {
+    font-size: 56px;
+  }
+  .display2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p, li {
+    font-size: 16px;
+  }
+  .p2 {
+    font-size: 12px;
+  }
+  .p3 {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */
